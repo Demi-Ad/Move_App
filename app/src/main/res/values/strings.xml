@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Move</string>
+    <string name="add_btn">Add Item</string>
+    <string name="request_permission_title">Request permission</string>
+    <string name="request_permission_description">You need permission to use the app</string>
+    <string name="request_yes">Yes</string>
+    <string name="request_no">No</string>
+    <string name="music" translatable="false">Music</string>
+    <string name="video" translatable="false">Video</string>
+    <string name="docs" translatable="false">Docs</string>
+    <string name="img" translatable="false">Image</string>
+    <string name="move">Move</string>
+    <string name="copy">Copy</string>
+    <string name="del">Del</string>
+    <string name="Edit">Edit</string>
+    <string name="action" translatable="false">Action</string>
+    <string name="type" translatable="false">Type</string>
+    <string name="select_folder" translatable="false">Select Folder</string>
+    <string name="scan_option">Scan Option</string>
+    <string name="from" translatable="false">From</string>
+    <string name="to" translatable="false">To</string>
+    <string name="add">ADD</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+    <string name="extension">Extension</string>
+    <string name="general_settings">General settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="popup_view">POPUP</string>
+    <string name="start_button_click_not_popup_show">Pop-up display settings</string>
+    <string name="extension_list">Extension List</string>
+    <string name="edit_extension">Edit Extension</string>
+
+    <string name="search_depth">Search Depth</string>
+
+    <string name="setting_depth_description">This menu is related to folder navigation depth</string>
+
+    <string name="toast_no_files">No Files</string>
+    <string name="work_complete">Work Complete</string>
+
+    <string name="setting_dialog_albert_exists">already exists</string>
+    <string name="setting_dialog_albert_empty">empty value exists</string>
+
+    <string name="work_albert_title">Warning</string>
+    <string name="work_albert_description">This action is irreversible, check carefully</string>
+
+    <string name="custom_dialog_tool_tip1">Default 0 : Scan all folders</string>
+    <string name="custom_dialog_tool_tip2">Value 1 : Scan only one folder</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+</resources>

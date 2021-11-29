@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/fragmentMainSettingList">
+
+    <fragment
+        android:id="@+id/fragmentMainSettingList"
+        android:name="com.Demi.Move.SettingActivity.Fragments.fragmentMainSettingList"
+        android:label="fragment_main_setting_list"
+        tools:layout="@layout/fragment_main_setting_list" >
+        <action
+            android:id="@+id/action_fragmentMainSettingList_to_settingEditExtensionFragment"
+            app:destination="@id/settingEditExtensionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingEditExtensionFragment"
+        android:name="com.Demi.Move.SettingActivity.Fragments.SettingEditExtensionFragment"
+        android:label="fragment_setting_edit_extension"
+        tools:layout="@layout/fragment_setting_edit_extension" />
+</navigation>
